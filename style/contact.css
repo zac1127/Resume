@@ -1,0 +1,111 @@
+/*contact*/
+
+.contact {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px 80px;
+    color: black;
+}
+
+.contact-col {
+    display: inline-block;
+    min-width: 600px;
+    vertical-align: top;
+}
+
+.contact-col input {
+    height: 50px;
+    font-size: 25px;
+    background-color: #f8f8f8;
+    border: 1px solid #d8d8d8;
+    color: grey;
+}
+
+.contact-col form {
+    width: 100%;
+    text-align: left;
+    color: grey;
+}
+
+.name {
+    display: inline-block;
+    margin-right: 10px;
+    color: #ABB2B9;
+}
+
+.first_name {
+    width: 260px;
+}
+
+.last_name {
+    width: 260px;
+}
+
+.email {
+    width: 540px;
+}
+
+.message {
+    width: 540px;
+    height: 200px;
+    font-size: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #d8d8d8;
+}
+
+.send {
+    padding: 10px 30px 40px;
+    transition: all ease-in-out .3s;
+}
+
+.send:hover {
+    background-color: grey;
+    border: 1px solid grey;
+    color: #f8f8f8;
+}
+
+.contact_info {
+    font-size: 20px;
+    padding-top: 20px;
+    color: black;
+}
+
+@media(max-width: 565px) {
+    #contact-form {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .contact-col {
+        display: inherit;
+        min-width: 0;
+    }
+    input {
+        margin: auto;
+    }
+    textarea {
+        margin: auto;
+    }
+    .name {
+        display: block;
+    }
+    .first_name {
+        width: 90%;
+    }
+    .last_name {
+        width: 90%;
+    }
+    .email {
+        display: block;
+        width: 90%;
+    }
+    .message {
+        display: block;
+        width: 90%;
+    }
+    .contact_info {
+        width: 100%;
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,90 @@
+/*Skills*/
+
+.skills {
+    width: 100%;
+    height: auto;
+    padding: 100px 0px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+}
+
+.skill-col {
+    display: inline-block;
+    width: 45%;
+    height: 500px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.skill {
+    display: inline-block;
+    width: 45%;
+    height: 50px;
+    font-size: 25px;
+    text-align: left;
+}
+
+.stars {
+    display: inline-block;
+    width: 45%;
+    height: 50px;
+}
+
+.sfa-img {
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/sfa.png");
+    background-position: center;
+    background-size: cover;
+    float: right;
+}
+
+.ed-col {
+    display: inline-block;
+    width: 25%;
+    margin: 10px;
+    vertical-align: top;
+    text-align: right;
+}
+
+.ed-col-2 {
+    display: inline-block;
+    width: 70%;
+    height: auto;
+    margin: 10px;
+    vertical-align: top;
+    text-align: left;
+    font-size: 23px;
+}
+
+@media(max-width: 850px) {
+    .sfa-img {
+        float: none;
+        margin: auto;
+    }
+    .skill-col {
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .ed-col {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: block;
+        margin: auto;
+        height: 250px;
+    }
+    .ed-col-2 {
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .edl-col-2 ul {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+}
