@@ -3,88 +3,333 @@
 .skills {
     width: 100%;
     height: auto;
-    padding: 100px 0px;
     text-align: center;
     font-family: 'PT Sans', sans-serif;
     color: black;
 }
 
-.skill-col {
-    display: inline-block;
-    width: 45%;
-    height: 500px;
-    margin: 10px;
+.skill-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.skill-col-1 {
+    position: relative;
+    width: 50%;
+    min-width: 600px;
+    height: 600px;
+    margin: 10px 0px 150px;
     vertical-align: top;
 }
 
-.skill {
-    display: inline-block;
-    width: 45%;
-    height: 50px;
-    font-size: 25px;
-    text-align: left;
+.skill-col-2 {
+    position: relative;
+    width: 50%;
+    height: 600px;
+    margin: 10px 0px 150px;
+    vertical-align: top;
 }
 
-.stars {
-    display: inline-block;
-    width: 45%;
-    height: 50px;
+@media (max-width: 1000px) {
+    .skill-container {
+        flex-wrap: wrap;
+    }
+    .skill-col-1 {
+        width: 100%;
+        height: 650px;
+    }
+    .skill-col-2 {
+        width: 100%;
+        margin-top: 100px;
+        height: auto;
+    }
 }
 
-.sfa-img {
+.circle-1, .circle-2, .circle-3, .circle-4, .circle-5 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: all ease-in-out .7s;
+}
+
+.cirle_logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: arial;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.circle-1 {
+    width: 100px;
+    height: 100px;
+    border: 2px dotted rgba(128, 139, 150, 1);
+}
+
+.circle-2 {
+    width: 100px;
+    height: 100px;
+    border: 2px dotted rgba(128, 139, 150, .8);
+}
+
+.circle-2.is_showing {
     width: 200px;
     height: 200px;
-    background-image: url("../images/sfa.png");
+    border: 2px dotted rgba(128, 139, 150, .8);
+}
+
+.circle-3 {
+    width: 100px;
+    height: 100px;
+    border: 2px dotted rgba(128, 139, 150, .6);
+}
+
+.circle-3.is_showing {
+    width: 350px;
+    height: 350px;
+    border: 2px dotted rgba(128, 139, 150, .6);
+}
+
+.circle-4 {
+    width: 100px;
+    height: 100px;
+    border: 2px dotted rgba(128, 139, 150, .4);
+}
+
+.circle-4.is_showing {
+    width: 550px;
+    height: 550px;
+    border: 2px dotted rgba(128, 139, 150, .4);
+}
+
+.circle-5 {
+    width: 100px;
+    height: 100px;
+    border: 2px dotted rgba(128, 139, 150, .2);
+}
+
+.circle-5.is_showing {
+    width: 750px;
+    height: 750px;
+    border: 2px dotted rgba(128, 139, 150, .2);
+}
+
+.logos {
+    position: absolute;
+    width: 100%;
+    min-width: 800px;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: -5000;
+}
+
+.html-logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 10%;
+    left: 5%;
+    background-image: url("../images/html_logo.png");
     background-position: center;
     background-size: cover;
-    float: right;
+    opacity: .7;
+    z-index: -500;
 }
 
-.ed-col {
-    display: inline-block;
-    width: 25%;
-    margin: 10px;
-    vertical-align: top;
-    text-align: right;
+.css-logo {
+    position: absolute;
+    width: 80px;
+    height: 130px;
+    top: 50%;
+    left: 25%;
+    background-image: url("../images/css3.png");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
 }
 
-.ed-col-2 {
-    display: inline-block;
-    width: 70%;
-    height: auto;
-    margin: 10px;
-    vertical-align: top;
+.php-logo {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 10%;
+    left: 80%;
+    background-image: url("../images/php.png");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
+}
+
+.laravel-logo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 70%;
+    left: 80%;
+    background-image: url("../images/laravel.png");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
+}
+
+.jQuery-logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 5%;
+    left: 40%;
+    background-image: url("../images/jquery.png");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
+}
+
+.java-logo {
+    position: absolute;
+    width: 120px;
+    height: 70px;
+    top: 80%;
+    left: 50%;
+    background-image: url("../images/java.png");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
+}
+
+.vb-logo {
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    top: 100%;
+    left: 20%;
+    background-image: url("../images/visualbasic.png");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
+}
+
+.bootstrap-logo {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 60%;
+    left: 70%;
+    background-image: url("../images/bootstrap.png");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
+}
+
+.cpp-logo {
+    position: absolute;
+    width: 70px;
+    height: 80px;
+    top: 30%;
+    left: 65%;
+    background-image: url("../images/cpp.png");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: 501;
+}
+
+.js-logo {
+    position: absolute;
+    width: 70px;
+    height: 80px;
+    top: 40%;
+    left: 95%;
+    background-image: url("../images/javascript.png");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
+}
+
+.sass-logo {
+    position: absolute;
+    width: 110px;
+    height: 80px;
+    top: 50%;
+    left: 0%;
+    background-image: url("../images/sass.png");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
+}
+
+.git-logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 110%;
+    left: 50%;
+    background-image: url("../images/git.png");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
+}
+
+.c-logo {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: -25%;
+    left: 47%;
+    background-image: url("../images/c.png");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
+}
+
+.content-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(100%, -50%);
     text-align: left;
-    font-size: 23px;
+    transition: all cubic-bezier(0.46, 0.53, 0.29, 1.26) .7s;
 }
 
-@media(max-width: 850px) {
-    .sfa-img {
-        float: none;
-        margin: auto;
-    }
-    .skill-col {
+.content-container.is_showing {
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1000px) {
+    .content-container {
+        margin-top: 150px;
         width: 90%;
-        display: block;
-        margin: auto;
+        padding: 50px 0px;
     }
-    .ed-col {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        display: block;
-        margin: auto;
-        height: 250px;
-    }
-    .ed-col-2 {
-        display: block;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-    }
-    .edl-col-2 ul {
-        margin: 0;
-        padding: 0;
-        text-align: left;
-    }
+}
+
+.skills-breaker {
+    margin: 10px 0;
+}
+
+.content-container h1 {
+    color: #4d545d;
+}
+
+.content-container p {
+    color: #919499;
+    line-height: 25px;
 }
