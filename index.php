@@ -270,8 +270,8 @@
           </svg>
         </a>
       </div>
-        <p>Address: <br> 113 Gatewood ln<br>
-        Lufkin Tx, 75904</p>
+        <p>Address: <br> 12106 Jamie Dr.<br>
+        Manor Tx, 78653</p>
         <p>Email: <br> <a href="mailto:zac21261@gmail.com">zac21261@gmail.com</a></p>
         <p>Phone: <br> (936) 676-5542</p>
       </div>
