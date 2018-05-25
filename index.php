@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style/style.css" media="screen" title="no title">
     <link rel="stylesheet" href="style/cover.css" media="screen" title="no title">
     <link rel="stylesheet" href="style/skills.css" media="screen" title="no title">
-    <link rel="stylesheet" href="style/education.css" media="screen" title="no title">
+    <link rel="stylesheet" href="style/experience.css" media="screen" title="no title">
     <link rel="stylesheet" href="style/projects.css" media="screen" title="no title">
     <link rel="stylesheet" href="style/resume.css" media="screen" title="no title">
     <link rel="stylesheet" href="style/contact.css" media="screen" title="no title">
@@ -23,7 +23,7 @@
     -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
     <!--
       Jquery
     -->
@@ -51,7 +51,7 @@
         <ul>
           <a href="#cover"><li>Cover Letter</li></a>
           <a href="#skills"><li>Skills</li></a>
-          <a href="#projects"><li>Portfolio</li></a>
+          <a href="#experience"><li>Experience</li></a>
           <a href="#resume"><li>Resume</li></a>
           <a href="#contact"><li>Contact</li></a>
         </ul>
@@ -62,7 +62,7 @@
       <div class="welcome">
         <div class="hero-name">Zachary Branson</div>
         <hr class="welcome_breaker">
-        <div class="sub-welcome">A Full Stack Web Developer</div>
+        <div class="sub-welcome">Senior Software Developer</div>
           <svg class="down-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129" enable-background="new 0 0 129 129" width="45px" height="45px">
             <g>
               <path d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z" fill="#FFFFFF"/>
@@ -136,7 +136,7 @@
         </div>
         <div class="skill-col-2">
           <div class="content-container">
-            <h1>My Skills</h1>
+            <h1>Software Development is a passion</h1>
             <hr class="skills-breaker">
             <p>
               Being passionate about software development, I enjoy learning new languages and technologies.
@@ -153,114 +153,53 @@
   </a>
 
   <!--  Eduction section -->
-  <a name="ed">
-      <section class="ed">
-        <div class="ed-container">
-          <div class="ed-col">
-            <div class="ed-content-container">
-              <h1>Education</h1>
-              <hr class="skills-breaker">
-                <p>B.S. Computer Science from Stephen F. Austin State University</p>
-                <p>ABET Accreditated University</p>
-                <p>Dates Attended (August 2012 - May 2017)</p>
-            </div>
+  <a name="experience">
+      <section class="experience">
+          <div class="experience-section">
+              <div class="experience-container">
+                  <h1 id="work-experience-header">Work Experience</h1>
+
+                  <div class="experience-item-container">
+                      <div class="company-logo mattersight"></div>
+                      <div class="job-info">
+                          <div id="job-title">Senior Software Developer</div>
+                          <div id="company-name">Mattersight</div>
+                          <div id="job-duration">Apr 2018 - Present</div>
+
+                      </div>
+                  </div>
+
+                  <div class="experience-item-container">
+                      <div class="company-logo mattersight"></div>
+                      <div class="job-info">
+                          <div id="job-title">Software Developer</div>
+                          <div id="company-name">Mattersight</div>
+                          <div id="job-duration">Jul 2017 - Present</div>
+
+                      </div>
+                  </div>
+
+                  <div class="experience-item-container">
+                      <div class="company-logo elevation"></div>
+                      <div class="job-info">
+                          <div id="job-title">Software Developer (Laravel)</div>
+                          <div id="company-name">Elevation</div>
+                          <div id="job-duration">Feb 2017 - Jul 2017</div>
+
+                      </div>
+                  </div>
+
+              </div>
           </div>
-          <div class="ed-col-2">
-            <div class="sfa-img"></div>
+          <div class="resume-section">
+              <div class="resume-container">
+                  <h1 id="resume-header">Resume</h1>
+
+              </div>
           </div>
-        </div>
+
       </section>
   </a>
-
-  <!--  Projects -->
-  <a name="projects">
-    <section class="projects">
-      <h1 style="text-align:center;">Projects</h1>
-      <hr>
-      <div class="flex-container">
-        <div class="flex-item proj4">
-          <a href="http://myui.io" style="text-decoration: none;" target="_blank">
-            <div class="proj_overlay">
-              <div class="title">MyUI</div>
-            </div>
-          </a>
-        </div>
-
-        <div class="flex-item proj2">
-          <a href="http://www.affinitypos.com/Affinity" style="text-decoration: none;" target="_blank">
-            <div class="proj_overlay">
-              <div class="title">Affinity POS</div>
-            </div>
-          </a>
-        </div>
-
-        <div class="flex-item proj1">
-          <a href="http://www.lufkinnazarene.com" style="text-decoration: none;" target="_blank">
-            <div class="proj_overlay">
-              <div class="title">Lufkin Nazarene</div>
-              </div>
-          </a>
-        </div>
-
-        <div class="flex-item proj3">
-            <div class="proj_overlay">
-              <div class="title">Grade Tracker</div>
-            </div>
-        </div>
-
-      </div>
-    </section>
-  </a>
-
-
-
-  <a name="resume">
-    <section class="resume">
-      <div class="overlay">
-        <div class="downloads">
-          <center><font color="white">Download</font></center>
-          <a href="resume.pdf" target="_blank"><button>Full Resume</button></a>
-        </div>
-      </div>
-    </section>
-  </a>
-
-
-    <!-- PHP sends text message  -->
-  <?php
-    if (isset($_POST['first_name'], $_POST['last_name'], $_POST['email'], $_POST['message'])) {
-        $first_name = $_POST['first_name'];
-        $last_name = $_POST['last_name'];
-        $email = $_POST['email'];
-        $message = $_POST['message'];
-
-        $errors = array();
-
-        // checks if form is empty
-        if (empty($first_name) || empty($last_name) || empty($email)) {
-            $errors[] = 'feilds can not be left blank';
-        }
-        // if there is errors
-        if (!empty($errors)) {
-            foreach ($errors as $error) {
-                echo $error.'<br>';
-            }
-        } else {
-            // else send the message
-            $to = '9366765542@txt.att.net';
-            $subject = 'Website Activity';
-            $headers = 'From: ZacBranson.com '."\r\n".
-           'Reply-To: webmaster@example.com'."\r\n".
-           'X-Mailer: PHP/'.phpversion();
-            $final = $first_name.' '.$last_name.' Email: '.
-                    $email.' Message: '.$message;
-
-            mail($to, $subject, $final, $headers);
-        }
-    }
-  ?>
-
-
 
   <a name="contact">
     <section class="contact">
@@ -308,7 +247,7 @@
          </a>
 
           &nbsp;
-        <a href="https://www.linkedin.com/in/zachary-branson-aaa33984" title="Linked in" style="text-decoration:none" target="_blank">
+        <a href="https://www.linkedin.com/in/zac-branson" title="Linked in" style="text-decoration:none" target="_blank">
          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 49.652 49.652" style="enable-background:new 0 0 49.652 49.652;" xml:space="preserve">
          <g>
            <g>

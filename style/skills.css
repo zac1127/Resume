@@ -4,8 +4,8 @@
     width: 100%;
     height: auto;
     text-align: center;
-    font-family: 'PT Sans', sans-serif;
-    color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: #17223c;
 }
 
 .skill-container {
@@ -19,7 +19,7 @@
     width: 50%;
     min-width: 600px;
     height: 600px;
-    margin: 10px 0px 150px;
+    margin: 10px 0px 10px;
     vertical-align: top;
 }
 
@@ -27,7 +27,7 @@
     position: relative;
     width: 50%;
     height: 600px;
-    margin: 10px 0px 150px;
+    margin: 10px 0px 10px;
     vertical-align: top;
 }
 
@@ -53,6 +53,7 @@
     transform: translate(-50%, -50%);
     border-radius: 50%;
     transition: all ease-in-out .7s;
+    z-index: -1;
 }
 
 .cirle_logo {
@@ -302,6 +303,7 @@
 
 .content-container {
     position: absolute;
+    width: 500px;
     top: 50%;
     left: 50%;
     transform: translate(100%, -50%);
@@ -322,11 +324,14 @@
 }
 
 .skills-breaker {
-    margin: 10px 0;
+    margin: 10px 0 5px;
 }
 
 .content-container h1 {
-    color: #4d545d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #17223c;
 }
 
 .content-container p {

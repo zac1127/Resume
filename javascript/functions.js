@@ -60,7 +60,6 @@ $(document).ready(function() {
 
 // rotates the logos
 setInterval(function() {
-    console.log(i);
     $(".logos").css({
       "transform" : "translate(-50%, -50%) rotate("+ (i * speed) +"deg)"
     });
@@ -126,9 +125,9 @@ setInterval(function() {
       if (wScroll > $('.content-container').offset().top - $(window).height() / 3) {
         $(".content-container").addClass("is_showing");
       }
-      if (wScroll > $('.ed-content-container').offset().top - $(window).height()/1.5) {
-        $(".ed-content-container").addClass("is_showing");
-      }
+    //   if (wScroll > $('.experience-content-container').offset().top - $(window).height()/1.5) {
+    //     $(".experience-content-container").addClass("is_showing");
+    //   }
   });
 
 
