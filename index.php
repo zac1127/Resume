@@ -193,7 +193,7 @@
           </div>
           <div class="resume-section">
               <div class="resume-container">
-                  <h1 id="resume-header">Resume</h1>
+                  <h1 id="resume-header">Download Resume</h1>
 
               </div>
           </div>
