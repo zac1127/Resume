@@ -84,11 +84,15 @@ setInterval(function() {
       "transform" : "rotate(-"+ (i * speed) +"deg)"
     });
 
+    $(".jenkins-logo").css({
+      "transform" : "rotate(-"+ (i * speed) +"deg)"
+    });
+
     $(".java-logo").css({
       "transform" : "rotate(-"+ (i * speed) +"deg)"
     });
 
-    $(".vb-logo").css({
+    $(".react-logo").css({
       "transform" : "rotate(-"+ (i * speed) +"deg)"
     });
 
@@ -122,12 +126,9 @@ setInterval(function() {
   // animates in the paragraphs
   $(window).on("scroll", function() {
       var wScroll = $(window).scrollTop();
-      if (wScroll > $('.content-container').offset().top - $(window).height() / 3) {
+      if (wScroll > $('.content-container').offset().top - $(window).height() / 1.7) {
         $(".content-container").addClass("is_showing");
       }
-    //   if (wScroll > $('.experience-content-container').offset().top - $(window).height()/1.5) {
-    //     $(".experience-content-container").addClass("is_showing");
-    //   }
   });
 
 

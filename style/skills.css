@@ -172,12 +172,26 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    top: 5%;
-    left: 40%;
+    top: 10%;
+    left: 35%;
     background-image: url("../images/jquery.png");
     background-position: center;
     background-size: cover;
     opacity: .7;
+    z-index: -500;
+}
+
+.jenkins-logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -5%;
+    left: 55%;
+    background-image: url("../images/jenkins.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: .8;
     z-index: -500;
 }
 
