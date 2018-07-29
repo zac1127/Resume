@@ -252,6 +252,7 @@ nav li:hover {
 
 @media(max-width: 865px) {
     .welcome {
+        top: 40%;
         font-size: 40px;
     }
 }
