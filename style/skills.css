@@ -194,13 +194,13 @@
     z-index: -500;
 }
 
-.vb-logo {
+.react-logo {
     position: absolute;
-    width: 100px;
-    height: 70px;
-    top: 100%;
-    left: 20%;
-    background-image: url("../images/visualbasic.png");
+    width: 130px;
+    height: 100px;
+    top: 30%;
+    left: 65%;
+    background-image: url("../images/react.png");
     background-position: center;
     background-size: cover;
     opacity: .7;
@@ -224,8 +224,8 @@
     position: absolute;
     width: 70px;
     height: 80px;
-    top: 30%;
-    left: 65%;
+    top: 100%;
+    left: 20%;
     background-image: url("../images/cpp.png");
     background-position: center;
     background-size: cover;
