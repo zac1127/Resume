@@ -3,9 +3,14 @@ $(document).ready(function() {
 
   setTimeout(function() {
     // Load screen
-    $("hero").ready(function(){
+    $('.hero').ready(function() {
+
       $('.load-overlay').addClass('dissapear');
-      $('.load-overlay').addClass('remove');
+      //Need to remove the overlay so it doesnt
+      //cover the page.
+      setTimeout(function() {
+          $('.load-overlay').hide();
+      }, 500);
 
       // Animate in the Hero title and sub message
       setTimeout(function() {
@@ -39,7 +44,7 @@ $(document).ready(function() {
   // Makes the down arrow on the hero flash.
   setInterval(function() {
     $('.down-arrow').toggleClass('flash');
-  }, 1200);
+  }, 1500);
 
   // Circles under rotating logos animate out.
   $(window).on("scroll", function() {

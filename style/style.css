@@ -94,10 +94,6 @@ h1 {
     opacity: 0;
 }
 
-.load-overlay.remove {
-    z-index: -50;
-}
-
 .container {
     width: 80%;
     max-width: 1400px;
@@ -250,22 +246,22 @@ nav li:hover {
     transform: translateY(0px);
 }
 
-@media(max-width: 865px) {
-    .welcome {
-        top: 40%;
-        font-size: 40px;
-    }
-}
-
 .down-arrow {
     opacity: 1;
-    transition: all ease-in-out .5s;
+    transition: all ease-in-out .8s;
     transform: translateY(-40%);
 }
 
 .down-arrow.flash {
     opacity: 0;
     transform: translateY(0%);
+}
+
+@media(max-width: 865px) {
+    .welcome {
+        top: 40%;
+        font-size: 40px;
+    }
 }
 
 /*Footer*/
