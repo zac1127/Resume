@@ -2,7 +2,6 @@
 $(document).ready(function() {
 
   setTimeout(function() {
-
     // Load screen
     $("hero").ready(function(){
       $('.load-overlay').addClass('dissapear');
@@ -64,61 +63,10 @@ setInterval(function() {
       "transform" : "translate(-50%, -50%) rotate("+ (i * speed) +"deg)"
     });
 
-    $(".html-logo").css({
+    $(".rotate-logo").css({
       "transform" : "rotate(-"+ (i * speed) +"deg)"
     });
 
-    $(".css-logo").css({
-      "transform" : "rotate(-"+ (i * speed) +"deg)"
-    });
-
-    $(".php-logo").css({
-      "transform" : "rotate(-"+ (i * speed) +"deg)"
-    });
-
-    $(".laravel-logo").css({
-      "transform" : "rotate(-"+ (i * speed) +"deg)"
-    });
-
-    $(".jQuery-logo").css({
-      "transform" : "rotate(-"+ (i * speed) +"deg)"
-    });
-
-    $(".jenkins-logo").css({
-      "transform" : "rotate(-"+ (i * speed) +"deg)"
-    });
-
-    $(".java-logo").css({
-      "transform" : "rotate(-"+ (i * speed) +"deg)"
-    });
-
-    $(".react-logo").css({
-      "transform" : "rotate(-"+ (i * speed) +"deg)"
-    });
-
-    $(".cpp-logo").css({
-      "transform" : "rotate(-"+ (i * speed) +"deg)"
-    });
-
-    $(".bootstrap-logo").css({
-      "transform" : "rotate(-"+ (i * speed) +"deg)"
-    });
-
-    $(".js-logo").css({
-      "transform" : "rotate(-"+ (i * speed) +"deg)"
-    });
-
-    $(".sass-logo").css({
-      "transform" : "rotate(-"+ (i * speed) +"deg)"
-    });
-
-    $(".git-logo").css({
-      "transform" : "rotate(-"+ (i * speed) +"deg)"
-    });
-
-    $(".c-logo").css({
-      "transform" : "rotate(-"+ (i * speed) +"deg)"
-    });
     i++;
   }, rotate);
 

@@ -292,6 +292,16 @@ nav li:hover {
     padding-left: 22px;
 }
 
+@media(max-width: 770px) {
+    .footer-flex-item {
+        width: 80%;
+        height: auto;
+        color: #ABB2B9;
+        text-align: center;
+        margin: auto;
+    }
+}
+
 /* ---- reset ---- */
 
 canvas {
