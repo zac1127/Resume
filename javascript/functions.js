@@ -45,7 +45,7 @@ $(document).ready(function() {
 
     // Makes the down arrow on the hero flash.
     setInterval(function() {
-    $('.down-arrow').toggleClass('flash');
+        $('.down-arrow').toggleClass('flash');
     }, 1500);
 
     // Circles under rotating logos animate out.

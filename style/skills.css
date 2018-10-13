@@ -307,10 +307,12 @@
     transform: translate(100%, -50%);
     text-align: left;
     transition: all cubic-bezier(0.46, 0.53, 0.29, 1.26) .7s;
+    opacity: 0;
 }
 
 .content-container.is_showing {
     transform: translate(-50%, -50%);
+    opacity: 1;
 }
 
 .skills-breaker {
