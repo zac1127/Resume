@@ -271,14 +271,14 @@ nav li:hover {
     width: 100%;
     height: auto;
     padding: 40px 0px;
-    background-color: #2f3840;
+    background-color: #17223c;
     font-size: 15px;
 }
 
 .footer-flex-item {
     width: 30%;
     height: auto;
-    color: #ABB2B9;
+    color: white;
     text-align: center;
     margin: auto;
 }
@@ -292,7 +292,7 @@ nav li:hover {
     .footer-flex-item {
         width: 80%;
         height: auto;
-        color: #ABB2B9;
+        color: white;
         text-align: center;
         margin: auto;
     }
