@@ -12,6 +12,8 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
+    max-width: 1700px;
+    margin: auto;
 }
 
 .skill-col-1 {
