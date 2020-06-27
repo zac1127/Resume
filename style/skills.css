@@ -195,13 +195,13 @@
     z-index: -500;
 }
 
-.java-logo {
+.docker-logo {
     position: absolute;
-    width: 120px;
-    height: 70px;
+    width: 125px;
+    height: 90px;
     top: 80%;
-    left: 50%;
-    background-image: url("../images/java.png");
+    left: 40%;
+    background-image: url("../images/docker.png");
     background-position: center;
     background-size: cover;
     opacity: .7;
@@ -225,8 +225,8 @@
     position: absolute;
     width: 70px;
     height: 70px;
-    top: 60%;
-    left: 70%;
+    top: 100%;
+    left: 20%;
     background-image: url("../images/bootstrap.png");
     background-position: center;
     background-size: cover;
@@ -234,16 +234,16 @@
     z-index: -500;
 }
 
-.cpp-logo {
+.kibana-logo {
     position: absolute;
     width: 70px;
     height: 80px;
-    top: 100%;
-    left: 20%;
-    background-image: url("../images/cpp.png");
+    top: 60%;
+    left: 70%;
+    background-image: url("../images/kibana.png");
     background-position: center;
     background-size: cover;
-    opacity: .7;
+    opacity: .8;
     z-index: 501;
 }
 
@@ -291,7 +291,7 @@
     width: 130px;
     height: 130px;
     top: -25%;
-    left: 47%;
+    left: 40%;
     background-image: url("../images/c.png");
     background-position: center;
     background-size: cover;
@@ -316,7 +316,7 @@
 }
 
 .skills-breaker {
-    margin: 10px 0 5px;
+    margin: 15px 0 -5px 0px;
 }
 
 .content-container h1 {
@@ -324,11 +324,12 @@
     font-weight: 900;
     letter-spacing: 1px;
     color: #17223c;
+    line-height: 40px;
 }
 
 .content-container p {
     color: #919499;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 @media (max-width: 1100px) {

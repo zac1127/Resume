@@ -67,6 +67,15 @@
     background-size: cover;
 }
 
+.modernize {
+    width: 50px;
+    height: 50px;
+    background-image: url('../images/modernize.jpeg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 0;
+}
+
 .company-name {
     font-size: 30px;
     font-weight: 500;
